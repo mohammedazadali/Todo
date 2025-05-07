@@ -14,7 +14,7 @@ const Dashboard = () => {
 
   const handleLogout = () => {
     localStorage.setItem("token", "false");
-    navigate("/login");
+    navigate("/");
   };
   return (
     <>
